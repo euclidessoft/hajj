@@ -1,0 +1,21 @@
+
+###> symfony/framework-bundle ###
+.htaccess
+/public/bundles/
+/public/Documents/
+/var/
+/vendor/
+.env
+package-lock.json
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+###< phpunit/phpunit ###
+/.idea/
+/node_modules/
+/vendor/symfony/maker-bundle/src/Resources/test/
