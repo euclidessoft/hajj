@@ -21,8 +21,8 @@
                     <th>{{ 'Lieu de naissance'|trans }}</th>
                     <th class="passeport">{{ 'Nº Passeport'|trans }}</th>
                     <th class="phone">{{ 'Téléphone'|trans }}</th>
-                    <th class="text-center">{{ 'Date d\'inscription'|trans }}</th>
-                    <th>{{ 'Package'|trans }}</th>
+{#                    <th class="text-center">{{ 'Date d\'inscription'|trans }}</th>
+                      <th>{{ 'Package'|trans }}</th>#}
                     <th class="text-center">{{ 'Situation'|trans }}</th>
                 </tr>
                 </thead>
@@ -74,14 +74,14 @@
                         <td data-label="{{ 'Téléphone'|trans }}" class="phone">
                                 {{ pelerin.phone }}
                         </td>
-                        <td data-label="{{ 'Date d\'inscription'|trans }}" class="text-center">
+                       {# <td data-label="{{ 'Date d\'inscription'|trans }}" class="text-center">
                             {{ pelerin.date|date('d/m/Y') }}
                             <br>
                             {{ pelerin.date|date('H:i:s') }}
                         </td>
                         <td data-label="{{ 'Package'|trans }}">
                                 {{ pelerin.pack.designation }}
-                        </td>
+                        </td>#}
                         <td data-label="{{ 'Situation'|trans }}" class="KO montant">
                             {{ (-1 * pelerin.situation)|number_format(0, '' , ' ') }}
                         </td>
