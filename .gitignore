@@ -5,7 +5,7 @@
 /public/Documents/
 #/var/
 #/vendor/
-.env
+#.env
 package-lock.json
 ###< symfony/framework-bundle ###
 
