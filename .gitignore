@@ -3,9 +3,9 @@
 .htaccess
 /public/bundles/
 /public/Documents/
-#/var/
-#/vendor/
-#.env
+/var/
+/vendor/
+.env
 package-lock.json
 ###< symfony/framework-bundle ###
 
